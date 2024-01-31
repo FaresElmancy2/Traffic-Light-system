@@ -1,32 +1,33 @@
-// C++ code
-//
+int red=2;
+int yellow=4;
+int green=8;
 void setup()
 {
-  pinMode(2,OUTPUT);
-  pinMode(4,OUTPUT);
-  pinMode(8,OUTPUT);
+  pinMode(red,OUTPUT);
+  pinMode(yellow,OUTPUT);
+  pinMode(green,OUTPUT);
 }
 
 void loop()
 {
- digitalWrite(2,HIGH);
+ digitalWrite(red,HIGH);
  delay(1000);
- digitalWrite(4,HIGH);
+ digitalWrite(yellow,HIGH);
  delay(500);
- digitalWrite(4,LOW);
+ digitalWrite(yellow,LOW);
  delay(500);
-   digitalWrite(4,HIGH);
+   digitalWrite(yellow,HIGH);
  delay(500);
- digitalWrite(4,LOW);
+ digitalWrite(yellow,LOW);
  delay(500);
-   digitalWrite(4,HIGH);
+   digitalWrite(yellow,HIGH);
  delay(500);
- digitalWrite(4,LOW);
+ digitalWrite(yellow,LOW);
  delay(500);
-   digitalWrite(8,HIGH);
-   digitalWrite(2,LOW);
-   digitalWrite(4,LOW);
+   digitalWrite(green,HIGH);
+   digitalWrite(red,LOW);
+   digitalWrite(yellow,LOW);
   delay(1000);
-  digitalWrite(8,LOW);
+  digitalWrite(green,LOW);
    delay(1000);
 }
